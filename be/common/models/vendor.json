@@ -1,0 +1,23 @@
+{
+  "name": "vendor",
+  "base": "PersistedModel",
+  "plural": "vendors",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "staffNumber": {
+      "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

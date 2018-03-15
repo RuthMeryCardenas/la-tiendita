@@ -1,0 +1,29 @@
+{
+  "name": "sale",
+  "base": "PersistedModel",
+  "plural": "sales",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "products": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "total": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
